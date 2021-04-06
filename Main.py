@@ -2,10 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
+PATH = r"C:\Users\petit\Documents\chromedriver" ##insert path here
 
-
-PATH = r"C:\Users\jwill\Downloads\chromedriver_win32" ##insert path here
-
+###destination = input("Please enter desired URL: ")
 
 driver = webdriver.Chrome(PATH)
 
