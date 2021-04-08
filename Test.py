@@ -7,7 +7,7 @@ os.system("cls")
 
 PATH = r"C:\Users\petit\Documents\chromedriver" ##insert path here
 
-destination = input("Please enter desired URL: (without https://)")
+destination = input("Please enter desired URL: https://")
 
 driver = webdriver.Chrome(PATH)
 
